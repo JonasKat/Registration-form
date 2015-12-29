@@ -15,5 +15,6 @@ $(document).ready(function () {
 			alert("Password must be filled out");
 			return false;
 		} 
+		$(".successful").show();
 	});	
 });
